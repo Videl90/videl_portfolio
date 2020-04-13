@@ -14,7 +14,10 @@
 .navbar-light .navbar-brand {
     color:#e0b1d0;
     font-family: 'Poppins', sans-serif;
-    margin-right: 350px;
+    margin-left: 350px;
+}
+.navbar-nav {
+    margin-left: 686px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -63,5 +66,7 @@
     margin: 0 auto;
 }
 
-.concerts_thumb:hover {
+.col-sm {
+    margin-top:35px;
 }
+
