@@ -196,6 +196,38 @@ footer {
     margin-bottom: 2px;
 }
     
+/*Starts form style*/
+
+form {
+    margin-top:50px;
+}
+
+.btn-primary {
+    background-color: #606a8c;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    margin: 0 auto;
+}
+
+.btn-primary:hover {
+    background-color: #e0b1d0;
+}
+
+.form-group {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #e0b1d0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn.btn-primary {
+    margin-top: 20px;
+    margin-left: 821px;
+}
+
+
 
 /* Media queries*/
 
@@ -252,35 +284,4 @@ footer {
     .name{
         font-size: 70px;
     }
-
-/*Starts form style*/
-
-form {
-    margin-top:50px;
-}
-
-.btn-primary {
-    background-color: #606a8c;
-    color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    border: none;
-    margin: 0 auto;
-}
-
-.btn-primary:hover {
-    background-color: #e0b1d0;
-}
-
-.form-group {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    color: #e0b1d0;
-    width: 80%;
-    margin: 0 auto;
-}
-
-.btn.btn-primary {
-    margin-top: 20px;
-    margin-left: 821px;
-}
 
