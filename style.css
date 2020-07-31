@@ -1,4 +1,3 @@
-
 #wrapper {
     width: 1000px;
     margin: auto;
@@ -61,7 +60,7 @@
     margin-left: 350px;
 }
 .navbar-nav {
-    margin-left: 686px;
+    margin-left: 680px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -258,6 +257,13 @@ form {
     margin-left: 821px;
 }
 
+.theatreInfo{
+    background-color: #ffffff;
+    color: #4e556b;
+    margin-top:10px;
+    text-align: center;
+}
+
 
 
 /* Media queries*/
@@ -291,6 +297,7 @@ form {
         width: 767px;
         margin-left:0 auto;
     }
+}
 
 @media only screen and (max-width:575px) {
     footer {
@@ -315,4 +322,4 @@ form {
     .name{
         font-size: 70px;
     }
-
+}
