@@ -335,6 +335,7 @@ header{
 .webInfo {
     color:  #ff00aa;
     font-family: 'Jost', sans-serif;
+    text-align:center;
 }
 
 .carousel-caption {
@@ -342,9 +343,10 @@ header{
 }
 
 .linkWeb {
-    color: #e0b1d0;
+    color: #00f7ff;
     font-family: 'Jost', sans-serif;
     font-weight: bold;
+    margin-left:120px;
 }
 
 .linkWeb:hover{
