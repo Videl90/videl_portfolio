@@ -20,7 +20,7 @@ header{
     margin:0 auto;
     text-align: center;
     background-image: url(assets/fondo.png);
-    margin-left: 289px;
+    margin-left:50px;
 }
 
 .name{
@@ -57,7 +57,7 @@ header{
     font-weight: bold;
     margin-top:20px;
     position: absolute;
-    left: 900px;
+    left: 700px;
     top: 373px;
     z-index: 1;
 
@@ -626,6 +626,19 @@ form {
     #intro {
         margin-left: -458px;
         width: 895px; 
+    }
+
+    .btn-outline-primary {
+        color: #00f7ff;
+        border-color:#00f7ff;
+        font-family: 'Jost', sans-serif;
+        font-weight: bold;
+        margin-top:20px;
+        position: absolute;
+        left: 180px;
+        top: 600px;
+        z-index: 1;
+    
     }
 
     .text-about-me{
