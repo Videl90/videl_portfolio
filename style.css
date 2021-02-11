@@ -119,6 +119,7 @@ header{
 .aboutme{
     background-image: url(assets/fondo2.png);
     height: 714px;
+    padding-top:80px;
 }
 
 .text-about-me{
@@ -168,13 +169,8 @@ header{
 
 /*Portfolio styles*/
 
-.portfolio{
-    margin-top:30px;
-    margin-left: 375px;
-    height: 714px;
-}
-
 .title-portfolio {
+    margin-top:30px;
     color: #ff00aa;
     font-weight: bolder;
     font-size: 24px;
@@ -337,7 +333,7 @@ header{
 /*Starts the links styles*/
 
 .webInfo {
-    color: #606a8c;
+    color:  #ff00aa;
     font-family: 'Jost', sans-serif;
 }
 
@@ -352,26 +348,26 @@ header{
 }
 
 .linkWeb:hover{
-    color: #4e556b;
+    color:  #ff00aa;
 }
 
 /*Starts footer style*/
 
 footer {
-    background-color: #606a8c;
+    background-color: #00f7ff;
     margin-top: 20px;
     text-align: center;
 }
 
-.icons {
+.fab {
     padding-bottom: 24px;
-    color: #e0b1d0;
+    color:  #ff00aa;
     margin:0 auto;
 }
 
 .copy {
-    padding-top: 8px;
-    color: #e0b1d0;
+    padding-top: 15px;
+    color:  #ff00aa;
     margin-bottom: 2px;
 }
     
@@ -386,11 +382,21 @@ form {
 .form-group {
     font-family: 'Jost', sans-serif;
     font-weight: bold;
-    color: #e0b1d0;
+    color: #ff00aa;
     width: 80%;
     margin: 0 auto;
 }
 
+.email {
+    margin-top:20px;
+}
+
+.btn-submit{
+    background-color:#ff00aa;
+    color:#00f7ff;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
 
 .theatreInfo{
     background-color: #ffffff;
@@ -601,6 +607,14 @@ form {
     .nature1, .nature2, .nature3, .nature4, .nature5, .nature6, .nature7, .nature8, .nature9, .nature10, .nature11, .nature12, .nature13{
         width: 374px;
         margin-left:30px;
+    }
+    .portfolio {
+        margin-top:500px;
+        margin-left:1px;
+    }
+
+    .title-portfolio {
+        margin-left:10px;
     }
 }
 
